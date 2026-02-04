@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - CINEMAFLIX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <script src="../assets/js/pages/home.js"></script>
+    <script src="../assets/js/pages/language.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CINEMAFLIX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="home.html" data-en="Home" data-sr="Početna">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="moves.html" data-en="Collection"
+                            data-sr="Kolekcija">Movies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html" data-en="About"
+                            data-sr="O nama">About</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" data-en="Contact"
+                            data-sr="Kontaktiraj">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html" data-en="Profile"
+                            data-sr="Profil">Profile</a></li>
+
+                </ul>
+                <!-- <button class="language-toggle" id="langToggle" onclick="toggleLanguage()">SR</button> -->
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="Cinema Classics" data-sr="Klasici Kinematografije">Cinema Classics</h1>
+            <p class="hero-subtitle" data-en="A Curated Collection of Timeless Films"
+                data-sr="Pažljivo odabrana kolekcija besmrtnih filmova">A Curated Collection of Timeless Films</p>
+            <p class="hero-description"
+                data-en="Explore the greatest films in cinema history. From award-winning masterpieces to unforgettable stories that have shaped the art of filmmaking."
+                data-sr="Istražite najveće filmove u istoriji kinematografije. Od nagrađivanih remek-dela do nezaboravnih priča koje su oblikovale filmsku umetnost.">
+                Explore the greatest films in cinema history. From award-winning masterpieces to unforgettable stories
+                that have shaped the art of filmmaking.
+            </p>
+        </div>
+    </section>
+
+    <section class="floating-section" id="features">
+        <div class="container">
+            <h2 class="section-title fade-in">Experience Cinema</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="floating-card fade-in">
+                        <div class="card-icon">🎬</div>
+                        <h3 class="card-title">Classic Films</h3>
+                        <p class="card-text">Explore timeless masterpieces from legendary directors and iconic
+                            performances.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floating-card fade-in">
+                        <div class="card-icon">⭐</div>
+                        <h3 class="card-title">Top Rated</h3>
+                        <p class="card-text">Discover the highest-rated films that have captivated audiences worldwide.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="floating-card fade-in">
+                        <div class="card-icon">🎭</div>
+                        <h3 class="card-title">Epic Stories</h3>
+                        <p class="card-text">Immerse yourself in powerful narratives that stand the test of time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="movies-section mx-5" id="latest">
+        <h2 class="section-title">Featured Movies</h2>
+        <div class="movie-slider">
+            <div class="movie-card">
+                <img src="../assets/img/The Godfather poster.jpeg" alt="The Godfather" class="movie-image">
+                <div class="movie-content">
+                    <div>
+                        <h3 class="movie-title">The Godfather</h3>
+                        <span class="movie-year">1972</span>
+                        <p class="movie-description">The aging patriarch of an organized crime dynasty transfers control
+                            of his clandestine empire to his reluctant son.</p>
+                    </div>
+                    <a href="#" class="cta-button">View Details</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="../assets/img/The dark knight poster.jpeg " alt="The Dark Knight" class="movie-image">
+                <div class="movie-content">
+                    <div>
+                        <h3 class="movie-title">The Dark Knight</h3>
+                        <span class="movie-year">2008</span>
+                        <p class="movie-description">When the menace known as the Joker wreaks havoc and chaos on the
+                            people of Gotham, Batman must accept one of the greatest tests.</p>
+                    </div>
+                    <a href="#" class="cta-button">View Details</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="../assets/img/The Lord of the Rings - The Return of the King poster.jpeg"
+                    alt="The Lord of the Rings" class="movie-image">
+                <div class="movie-content">
+                    <div>
+                        <h3 class="movie-title">The Lord of the Rings</h3>
+                        <span class="movie-year">2001</span>
+                        <p class="movie-description">A meek Hobbit from the Shire and eight companions set out on a
+                            journey to destroy the powerful One Ring.</p>
+                    </div>
+                    <a href="#" class="cta-button">View Details</a>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="../assets/img/Forest Gump poster.jpeg" alt="Forrest Gump" class="movie-image">
+                <div class="movie-content">
+                    <div>
+                        <h3 class="movie-title">Forrest Gump</h3>
+                        <span class="movie-year">1994</span>
+                        <p class="movie-description">The presidencies of Kennedy and Johnson, the events of Vietnam,
+                            Watergate, and other historical events unfold from the perspective of Forrest.</p>
+                    </div>
+                    <a href="#" class="cta-button">View Details</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="parallax-section" id="about">
+        <div class="parallax-content">
+            <h2 class="parallax-title">Join the Universe</h2>
+            <p class="parallax-text">
+                Immerse yourself in the ultimate collection of superhero action. From the Marvel Cinematic Universe to
+                DC's legendary heroes, every epic moment awaits.
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="footer-text">&copy; 2026 Epic Action Universe. All rights reserved. Marvel and DC are registered
+                trademarks.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script>
+        let currentLanguage = 'en';
+
+        function toggleLanguage() {
+            currentLanguage = currentLanguage === 'en' ? 'sr' : 'en';
+            const langButton = document.getElementById('langToggle');
+            langButton.textContent = currentLanguage === 'en' ? 'SR' : 'EN';
+
+            // Update all elements with data attributes
+            document.querySelectorAll('[data-en][data-sr]').forEach(element => {
+                const text = currentLanguage === 'en' ? element.getAttribute('data-en') : element.getAttribute('data-sr');
+                element.textContent = text;
+            });
+        }
+    </script> -->
+</body>
+
+
+</html>

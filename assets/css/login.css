@@ -1,0 +1,94 @@
+body {
+      background-color: #000;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fccf39;
+    }
+
+    /* .login-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 8px 32px 0 rgba(154, 154, 154, 0.37);
+      backdrop-filter: blur(8.5px);
+      -webkit-backdrop-filter: blur(8.5px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      width: 350px;
+    } */
+    .login-card{
+        background: linear-gradient(135deg, rgba(255, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
+            border: 2px solid #ff0000;
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem 0;
+            width: 350px;
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+    }
+    .login-card::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 204, 0, 0.2), transparent);
+            transition: left 0.5s;
+        }
+    .login-card:hover::before{
+            left: 100%;
+        }
+    .login-card:hover{
+            transform: translateY(-20px) scale(1.02);
+            border-color: #ffcc00;
+            box-shadow: 0 20px 60px rgba(255, 0, 0, 0.4);
+        }
+    .form-control {
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #ffffffaa;
+      border-radius: 0;
+      color: #ffffffaa;
+    }
+
+    .form-control:focus {
+      background: transparent;
+      border-color: rgb(105, 105, 105);
+      box-shadow: none;
+      color: rgb(75, 74, 74);
+    }
+
+    .btn-login {
+      background: #ff0000;
+      color: #f9f9f9;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      width: 100%;
+      border-radius: 50px;
+
+    }
+
+    .btn-login:hover {
+      background: #fdfdfd;
+      color: #161616;
+      border: 1px solid #afafaf;
+    }
+
+    .error-msg {
+      color: #ff0000;
+      margin-top: 10px;
+      display: none;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
