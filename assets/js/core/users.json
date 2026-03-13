@@ -1,0 +1,14 @@
+[
+    {
+      "email": "user@gmail.com",
+      "password":
+        "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+      "role": "user"
+    },
+    {
+      "email": "user2@gmail.com",
+      "password":
+        "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+      "role": "user"
+    }
+  ]
