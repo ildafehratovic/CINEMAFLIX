@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: 4,
-      image: "../assets/img/Angry Men poster .jpeg",
+      image: "../assets/img/Angry Men poster.jpeg",
       title: "12 Angry ",
     },
     {
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 8,
       image:
-        "../assets/img/The Lord of The Rings - The Fellowship of the Ring poster.jpeg.jpeg",
+        "../assets/img/The Lord of The Rings - The Fellowship of the Ring poster.jpeg",
       title: "The Lord of the Rings: The Fellowship of the Ring",
     },
     {
